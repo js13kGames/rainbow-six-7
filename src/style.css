@@ -1,0 +1,2 @@
+/* c: cursor; a: active; u: used; t: threat */
+:root{font:14px monospace;background:#123;color:#fff}#board{width:25em;font:bold min(calc(4vw - .64px),4.5vh,48px)/1 monospace}#board b{display:inline-block;width:1em;text-align:center}.c,:focus-visible{outline:2px solid #fff}.a{background:#234}.u{opacity:.6}.t{text-decoration:underline dashed}pre{white-space:pre-wrap}#log{height:8em;overflow:auto}body:has(#contrast:checked){background:#000}@media(prefers-contrast:more){:root{background:#000}}
